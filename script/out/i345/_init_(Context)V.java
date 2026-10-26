@@ -1,0 +1,31 @@
+public strictfp i345(android.content.Context context) {
+    super(context);
+    this.d = 1.0f;
+    this.f = new com.corrodinggames.rts.game.m349[6];
+    this.h = false;
+    this.i = 0;
+    this.j = new java.util.concurrent.ConcurrentLinkedQueue();
+    this.p = 0;
+    this.q = 0;
+    this.r = 0;
+    this.s = 16.0f;
+    this.t = "0fps";
+    this.u = new android.graphics.Rect();
+    this.v = new java.util.ArrayList();
+    this.z = new android.graphics.Paint();
+    this.C = new com.corrodinggames.rts.gameFramework.d.b918();
+    this.F = 0.0f;
+    this.G = 1.0f;
+    this.Q = 0.0f;
+    this.R = new android.graphics.Rect();
+    this.S = new android.graphics.RectF();
+    this.T = (com.corrodinggames.rts.gameFramework.m.e1216) null;
+    this.U = (com.corrodinggames.rts.gameFramework.m.e1216) null;
+    this.V = new com.corrodinggames.rts.gameFramework.utility.v1357("allOnScreenObjects");
+    this.W = new com.corrodinggames.rts.gameFramework.utility.v1357("allOnScreenObjectsDirty");
+    this.X = new android.graphics.Matrix();
+    this.Y = new java.util.ArrayList();
+    this.Z = new java.util.ArrayList();
+    this.ac = new Object();
+    this.ad = 0;
+}

@@ -1,0 +1,54 @@
+public b326() {
+    super();
+    this.k = new boolean[256];
+    this.t = new ArrayList();
+    this.u = null;
+    this.v = null;
+    this.w = null;
+    this.y = null;
+    this.z = new ArrayList();
+    this.A = new ArrayList();
+    this.B = 1;
+    this.C = new i333[0];
+    this.F = true;
+    this.G = false;
+    this.H = false;
+    this.P = new Rect();
+    this.Q = new ArrayList();
+    this.W = new PointF();
+    this.ab = 0.0f;
+    this.ak = 1.0f;
+    this.al = 0;
+    this.an = new Paint();
+    this.ao = new Rect();
+    this.ap = new Rect();
+    this.n = 20;
+    this.o = 20;
+    if (com.corrodinggames.rts.gameFramework.k1104.u()) {
+        this.n = 60;
+        this.o = 60;
+    }
+    this.p = this.n / 2;
+    this.q = this.o / 2;
+    this.r = 1.0f / this.n;
+    this.s = 1.0f / this.o;
+    this.ac = new fq1260();
+    this.ac.setARGB(100, 255, 0, 0);
+    this.ac.setTextSize(16.0f);
+    this.ad = new fq1260();
+    this.ad.setStyle(Paint.Style.STROKE);
+    this.ad.setStrokeWidth(1.0f);
+    this.ad.setARGB(255, 0, 225, 0);
+    this.ae = new fq1260();
+    this.ae.setStyle(Paint.Style.STROKE);
+    this.ae.setStrokeWidth(1.0f);
+    this.ae.setARGB(100, 0, 185, 0);
+    this.af = new fq1260();
+    this.af.setStyle(Paint.Style.STROKE);
+    this.af.setStrokeWidth(1.0f);
+    this.af.setARGB(255, 175, 0, 0);
+    this.ag = new fq1260();
+    this.ag.setARGB(155, 175, 0, 0);
+    this.ah = new fq1260();
+    this.ah.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.CLEAR));
+}
